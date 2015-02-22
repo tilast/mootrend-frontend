@@ -18,4 +18,9 @@ angular.module('mootrendFrontend', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSani
           libraries: 'weather,geometry,visualization'
       });
   })
+  // .config(function($httpProvider){
+  // });
+  // .config(function($httpProvider){
+  //   $httpProvider.defaults.headers.common['Access-Control-Allow-Origin'] = "*";
+  // });
 ;

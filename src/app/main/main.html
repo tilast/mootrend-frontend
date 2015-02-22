@@ -3,12 +3,9 @@
   <div ng-include="'components/navbar/navbar.html'"></div>
 
   <div class="row">
-    <ui-gmap-google-map center='map.center' zoom='map.zoom'>
-      <ui-gmap-layer type="FusionTablesLayer" options="map.layer[0]" show="showWeather"></ui-gmap-layer>
+    <ui-gmap-google-map center='map.center' zoom='map.zoom' events="map.events">
     </ui-gmap-google-map>
-    <!-- <canvas id="map-canvas" class="angular-google-map-container"></canvas> -->
   </div>
-  <button ng-click="setCenter(20, 30)">Set Center</button>
   <hr>
 
   <div class="footer">
